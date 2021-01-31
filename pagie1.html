@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="css/style.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<script
+			  src="https://code.jquery.com/jquery-3.5.1.js"
+			  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+			  crossorigin="anonymous"></script>
+	<script>
+		// var one=1;
+		// console.log(one+ "0");
+		// let name ="NOOOO", age=13, message="Hello";
+		// console.log(name, age, message);
+		// let ans = prompt("что-то", 10);
+		// console.log(ans);
+		// var isBoss =confirm(); //getElementByClassName
+		// console.log(isBoss);
+       
+
+	</script>
+</head>
+<body>
+	<style>
+		/*h1{
+			color: green;
+		}
+		#header {
+			font-size: 40px;
+		}
+		.first {
+			color: grey;
+		}*/
+		
+		.fz {
+			font-size: 40px;
+			color: green;
+		}
+		
+		body {
+			background: pink;
+		}
+
+		.active {
+			background: green;
+		}	
+
+	</style>
+
+
+	<h1 class="fz">Заголовок</h1>
+	<h1 class="fz">Заголовок2</h1>
+	<h1>Заголовок3</h1>
+	<h1 class="fz">Заголовок4</h1>
+	<header>
+		<nav>
+			<ul id="topmenu">
+				<li><a href="#">Магазин</a></li>
+				<li><a href="#">Галерея</a></li>
+				<li><a href="#">Матиматика</a></li>
+				<li><a href="#">Русский</a></li>
+				<li><a href="#">География</a></li>
+				<li><a href="index.html">Назад</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<aside id="left" >
+		<h4>Каталог</h4>
+		<ul>
+			<li>раз</li>
+			<li>два</li>
+			<li>три</li>
+
+		</ul>
+	</aside>
+
+	
+		<article  id="class">
+				<img src="image.png">		 
+		 	<h1> Что то тут</h1>
+			<p> Lorem ipsum dolor sit amet, consectetur, adipisicing elit. Molestiae, maxime animi modi dolore aliquam vero aperiam obcaecati quaerat qui quidem facilis provident ad porro recusandae nihil, impedit veniam tenetur sunt.
+			</p>
+			<h4>you to you to you</h4>
+			<section>
+				<h4>заголовок</h4>
+				 <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit obcaecati sapiente voluptas. Voluptatum, tenetur quod ea optio neque necessitatibus aspernatur quidem soluta nam. Eveniet laborum culpa, error consequatur, cum libero.
+				 </p>
+
+				 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis incidunt quos nostrum vitae quaerat numquam dolore itaque nam quibusdam recusandae reiciendis omnis doloremque voluptas, veniam. Iusto reprehenderit, mollitia atque distinctio.
+				 </p>
+			</section>
+		</article>
+		    <aside id="right">правый блок</aside>
+		    <ul class="slider">
+		    	<li><img src="image.png" alt=""></li>
+		    	<li><img src="image.png" alt=""></li>
+		    	<li><img src="image.png" alt=""></li>
+		    	<li><img src="image.png" alt=""></li>
+		    </ul>
+	</main>
+	<footer>все права защещины</footer>
+	<button class="btn">Кнопка</button>
+	<script src="js/mein.js"></script>
+	<script>
+		 /*alert(Привет);
+		 $("body").click(function(){
+        	console.log("click btn");
+        	console.log("click btn2");
+        });*/
+		
+        $(".btn").click(function(){
+        	  $('.btn').addClass('active'); 
+        });
+
+        /*$('.btn').hide();
+        $(".btn").show();*/
+	</script>
+
+</body>
+</html>
